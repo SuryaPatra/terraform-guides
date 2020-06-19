@@ -54,10 +54,6 @@ policy "restrict-db-instance-engines" {
   enforcement_level = "advisory"
 }
 
-policy "restrict-ec2-instance-type" {
-  source = "./restrict-ec2-instance-type.sentinel"
-  enforcement_level = "advisory"
-}
 
 policy "restrict-ingress-sg-rule-cidr-blocks" {
   source = "./restrict-ingress-sg-rule-cidr-blocks.sentinel"
